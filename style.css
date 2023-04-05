@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
 
 body {
-    margin: 0px; /*definir margem da pagina */
-    font-family: 'Alkatra', sans-serif;
+    margin: 0; /*definir margem da pagina */
+    font-family: 'Comic Neue', cursive;
+    background:  no-repeat url(Assets/Mount-Targon-League-of-Legends.jpg);
+    background-size: cover ;
 }
 ul {
     list-style: none; /*retira os marcadores da lista */
@@ -26,6 +28,7 @@ button {
 header {
     background: no-repeat center/cover url("Assets/Mount_Targon_Once_In_A_Lifetime.webp");
     height: calc(100vh - 100px);
+    opacity: 100%;
 }
 
 header nav {
@@ -40,7 +43,7 @@ header nav ul {
 
 header nav ul li {
     margin: 0 15px;
-    color: #ecd9d9;
+    color: #ffffff;
 }
 
 header nav p {
@@ -51,11 +54,112 @@ header nav p {
     max-width: 400px;
     margin: 150px auto;
     text-align: center;
-    color: #e2d983;
+    color: #ffffff;
+    opacity: 100%;
 }
 
 
 .image {
     display: flex;
     justify-content: center;
+}
+
+header nav p{
+    font-weight: bold;
+}
+
+.header-content h1{
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
+.pacotes .pacotes-title{
+    width: 100%;
+    text-align: center;
+    margin: 25px 0;
+    font-size: 3rem;
+}
+
+.pacotes{
+    padding: 15px;
+    position: relative;
+}
+
+.pacotes .pacotes-card{
+    display: flex;
+    margin: auto;
+    max-width: 950px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pacotes .card-image{
+    width: 250px;
+    height: 200px;
+    border-radius: 24px 0 0 0;
+}
+
+.pacotes .card{
+    width: 250px;
+    height: 420px;
+    background: white;
+    border-radius: 24px 0;
+    margin: 25px;
+    position: relative;
+    
+}
+
+.pacotes .card-content {
+    padding: 0 15px;
+    color: rgb(226, 163, 226);
+}
+
+.pacotes .card-content ul{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.pacotes .card-content ul li{
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    margin: 3px 0;
+    color: rgb(226, 163, 226);
+    font-weight: bold;
+}
+
+.pacotes .card-content li svg{
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+}
+
+.pacotes .card-content h1 {
+    font-size: 1.6rem;
+}
+
+.pacotes .card .card-tag-top{
+    position: absolute;
+    right: 0;
+    top: 15px;
+    background: #f19b39;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card .card-tag-bottom{
+    position: absolute;
+    left: 0;
+    top: 120px;
+    background: #1d61dd;
+    border-radius: 8px 0 0 8px;
+    padding: 5px 10px;
+}
+
+.pacotes .card.card-tag p{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #fff;
+    font-weight: bold;
 }
