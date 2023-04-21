@@ -29,6 +29,7 @@ header {
     background: no-repeat center/cover url("Assets/Mount_Targon_Once_In_A_Lifetime.webp");
     height: calc(100vh - 100px);
     opacity: 100%;
+    padding: 90px;
 }
 
 header nav {
@@ -162,4 +163,107 @@ header nav p{
     font-size: 0.8rem;
     color: #fff;
     font-weight: bold;
+}
+
+.servicos {
+    padding: 15px;
+    background: #BACDDB;
+    padding-bottom: 40px;
+
+}
+
+.servicos .servicos-title {
+    text-align: center;
+    margin: 35px 0;
+}
+
+.servicos .servicos-cards{
+    margin-top: 250px;
+    display: flex;
+    max-width: 950px;
+    justify-content: center;
+    margin: auto;
+}
+
+.servicos .card{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.servicos .card svg{
+    width: 60px;
+    height: 60px;
+    margin: 50px;
+}
+
+.servicos .card svg:hover {
+    stroke: #77037B;
+    transform: scale(1.1);
+}
+
+.servicos .card h3 {
+    font-weight: bold;
+    color: #89375F;
+}
+
+.servicos .card p {
+    color: #393646;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.servicos .card .card-content{
+    height: 180px;
+    text-align: center;
+}
+
+.contatos {
+    text-align: center;
+    padding: 15px;
+    background: #6b5088;
+}
+.contatos h2 {
+    padding-top: 30px;
+}
+
+.contatos p{
+    padding-bottom: 30px;
+}
+.contatos-icons {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    padding: 40px;
+}
+
+.contatos-icons svg:hover {
+    stroke: #e70b0b;
+    transform: scale(1.5);
+}
+.contatos .mail{
+    padding: 40px;
+    color: #000000;
+    
+}
+
+.contatos .twitter{
+    padding: 40px;
+    color: #000000;
+}
+
+.contatos .face{
+    padding: 40px;
+    color: #000000;
+}
+
+.contatos .instagram{
+    padding: 40px;
+    color: #000000;
+}
+.contatos .phone{
+    padding: 40px;
+    color: #000000;
 }
